@@ -1,0 +1,32 @@
+
+@import '../_base.scss';
+.footer{
+    position: fixed;
+    z-index:100;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:0.46rem;
+    background-color:#fafafa;
+    border-top:1px solid #ddd;
+    font-size:0.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        display: flex;
+        color:#333;
+        flex-direction: column;
+        align-items: center;
+        &.active{
+            color:$base-color; 
+        };
+        i{
+            font-size:0.2rem;
+        }
+        span{
+            font-size: 0.1rem;
+        }
+       
+    }
+}

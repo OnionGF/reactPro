@@ -1,0 +1,23 @@
+{
+    "success":true,
+    "data": {
+      "result": [
+        {
+          "introduce": "这是一首咕咕的小黎歌，美丽的房子，面朝大海~",
+          "style": "两室一厅，一个独卫",
+          "place": "北京",
+          "price": "400.00",
+          "status": "1",
+          "title": "媛舍Yuans HOME双大床D套间"
+        },
+        {
+          "introduce": "这是一首咕咕的小黎歌，美丽的房子，面朝大海~",
+          "style": "两室一厅，一个独卫",
+          "place": "北京",
+          "price": "400.00",
+          "status": "1",
+          "title": "媛舍Yuans HOME双大床D套间"
+        }
+      ]
+    }
+}

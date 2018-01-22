@@ -1,0 +1,32 @@
+
+ {
+   "status": 0,
+   "data": {
+     "billboards": [{
+       "id": 711,
+       "name": "武夷山茶园后的90后姑娘",
+       "url": "https://m.maizuo.com/act/active/1282  ",
+       "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/landlordstory/wuyishan.jpg",
+       "weight": 1
+     }, {
+       "id": 712,
+       "name": "四季花开，一家四口的童话小院",
+       "url": "https://m.maizuo.com/act/active/1285",
+       "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/landlordstory/sijihuakai.jpg",
+       "weight": 2
+     }, {
+      "id": 714,
+      "name": "隐居深山，享受湖边田园生活！",
+      "url": "http://m.maizuo.com/act/active/1295",
+      "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/landlordstory/yinjushenshan.png",
+      "weight": 1
+    }, {
+      "id": 715,
+      "name": "涂鸦设计师变身民宿房东",
+      "url": "http://m.maizuo.com/act/active/1295",
+      "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/landlordstory/tuyashejishi.jpg",
+      "weight": 1
+    }]
+  },
+   "msg": "ok"
+ }

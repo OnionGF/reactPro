@@ -1,0 +1,35 @@
+ 
+
+
+  {
+    "success": true,
+    "result":[
+      {
+        "id": "1",
+        "title":"胡同民宿|四合院",
+        "style":"合住房间-一室双床-两卫",
+        "housePhoto":"https://i1.mayi.com/mayi71/M32/HY/HQ/3FTM71DACKFHL8CUG9OFZGF59RPS7X.jpg_500x250c.jpg",
+        "headPhoto" :"https://i1.mayi.com/mayi84/M35/GL/FA/8AUKEF82X7UCNKA8GZS4TPYC42U5VZ.jpg_/both/68x68/quality/65/unsharp/true/format/jpg",
+        "price":"￥309",
+        "userId":"22"
+      },
+      {
+        "id": "2",
+        "title":"胡同民宿|四合院",
+        "style":"合住房间-一室双床-两卫",
+        "housePhoto":"//staticnew.mayi.com/duanzu/resourcesWap/index/images/optimizationIcon.png",
+        "headPhoto" :"https://i1.mayi.com/mayi11/M91/PL/XZ/7U4XLQDAECWHUD9FSF4PGN53ZXFYYV.jpg_/both/68x68/quality/65/unsharp/true/format/jpg",
+        "price":"￥325",
+        "userId":"22"
+      }, 
+      {
+        "id": "3",
+        "title":"胡同民宿|四合院",
+        "style":"合住房间-一室双床-两卫",
+        "housePhoto":"https://i1.mayi.com/mayi51/M73/SI/NW/4YMM96QWP3D5HCTX7BVKM5S63DGQUU.jpg_500x250c.jpg",
+        "headPhoto" :"https://i1.mayi.com/mayi38/M74/EK/VT/FSHB3LBVHAEHSQX7LZXUTP4JSJES4S.jpg_/both/68x68/quality/65/unsharp/true/format/jpg",
+        "price":"￥235",
+        "userId":"22"
+      }
+    ]
+}

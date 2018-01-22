@@ -1,0 +1,26 @@
+
+ {
+   "status": 0,
+   "data": {
+     "billboards": [{
+       "id": 711,
+       "name": "新卖座卡公告",
+       "url": "https://m.maizuo.com/act/active/1282  ",
+       "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/carouselImg_2_02.png",
+       "weight": 1
+     }, {
+       "id": 712,
+       "name": "元旦专题",
+       "url": "https://m.maizuo.com/act/active/1285",
+       "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/carouselImg_4.png",
+       "weight": 2
+     }, {
+       "id": 714,
+       "name": "星球大战8",
+       "url": "http://m.maizuo.com/act/active/1295",
+       "imageUrl": "//staticnew.mayi.com/duanzu/resourcesWap/index/images/carouselImg_3.png",
+       "weight": 1
+     }]
+   },
+   "msg": "ok"
+ }

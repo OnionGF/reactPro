@@ -1,0 +1,28 @@
+
+ {
+  "success": true,
+  "result": [
+      {
+          "id": 1,
+          "name": "老上海旧时光",
+          "image": "https://i1.mayi.com/mayi71/M32/HY/HQ/3FTM71DACKFHL8CUG9OFZGF59RPS7X.jpg_500x250c.jpg" ,
+          "route": "线路-苏州河",
+          "addr": "上海 | 1居 | 34评价 | 5.0完美"
+       },
+      {
+          "id": 2,
+          "name": "北京精华五日游",
+          "image": "https://i1.mayi.com/mayi87/M23/KF/PK/WNBJXNYSKY77Y4BQLFSCFNY2EVZHNM.jpg_500x250c.jpg",
+          "route": "线路-皇城里的光阴",
+          "addr": "北京 | 2居 | 18评价 | 4.9超赞"
+      },
+      {
+        "id": 3,
+        "name": "老上海旧时光",
+        "image": "https://i1.mayi.com/mayi51/M73/SI/NW/4YMM96QWP3D5HCTX7BVKM5S63DGQUU.jpg_500x250c.jpg",   
+        "route": "线路-苏州河",
+        "addr": "深圳 | 1居 | 16评价 |4.8赞"
+     }
+  ],
+  "error": null
+}

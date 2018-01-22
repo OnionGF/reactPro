@@ -1,0 +1,16 @@
+{
+    "success":true,
+    "data": {
+    "result": [
+        {
+          "phone": "123",
+          "password": "123"
+        },
+        {
+          "phone": "234",
+          "password": "234"
+        }
+      ]
+    },
+    "error":null
+}
