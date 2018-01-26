@@ -1,32 +1,63 @@
-
-@import '../_base.scss';
-.footer{
+.tab-bar {
+    // @include onepx();
     position: fixed;
-    z-index:100;
-    bottom:0;
-    left:0;
-    width:100%;
-    height:0.46rem;
-    background-color:#fafafa;
-    border-top:1px solid #ddd;
-    font-size:0.2rem;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    a{
-        display: flex;
-        color:#333;
-        flex-direction: column;
-        align-items: center;
-        &.active{
-            color:$base-color; 
-        };
-        i{
-            font-size:0.2rem;
-        }
+    flex-direction: row;
+    background-color: #fcfcfc;
+    li {
+      flex: 1;
+      color: #999;
+      display: block;
+      a{
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 3px auto;
+        background: url('/static/img/footer/tab-icons.png') no-repeat;
+        background-size: 25px auto;
         span{
-            font-size: 0.1rem;
+          display: block;
+          font-size: 12px;
+          color: #999;
+          line-height: 75px;
+          height:25px;
         }
-       
+      }
     }
-}
+  
+    li.router-link-active {
+      color: #333;
+    }
+  
+    .ico-index {
+      background-position: 0 -75px;
+    }
+   .indexClick {
+      background-position: 0 -50px;
+    }
+  
+    .ico-find {
+      background-image: url('/static/img/footer/find.png');
+    }
+    .findClick {
+      background-image: url('/static/img/footer/find1.png');
+    }
+  
+    .ico-order {
+      background-position: 0 -25px;
+    }
+    .orderClick {
+      background-position: 0 0;
+    }
+  
+    .ico-mine {
+      background-position: 0 -125px;
+    }
+    .mineClick {
+      background-position: 0 -100px;
+    }
+  }

@@ -4,26 +4,35 @@ import 'antd/dist/antd.css';
 import './stylesheets/index.scss';
 import App from './javascript/App';
 import registerServiceWorker from './registerServiceWorker'; //生产环境中的离线缓存
-import Home from './javascript/components/index/Home.js'
-import Mes from './javascript/components/mes/Mes.js'
-import Order from './javascript/components/order/Order.js'
-import Mine from './javascript/components/mine/Mine.js'
-import {Router,Route,IndexRedirect,hashHistory,Redirect} from 'react-router'
+import Home from './javascript/components/index'
+import Find from './javascript/components/Find'
+import Mine from './javascript/components/Mine'
+import Order from './javascript/components/Order'
+import Login from './javascript/components/Login'
+import Restaurant from './javascript/components/Restaurant'
+import GoodList from './javascript/components/GoodList'
+
+import {Router,Route,IndexRedirect,hashHistory,Redirect,browserHistory} from 'react-router'
 
 import store from './redux/store.js'
 
 import {Provider} from 'react-redux'
 
+import 'antd-mobile/dist/antd-mobile.css';
+// const history = createBrowserHistory();
 let route =<Provider store={store}>
-                <Router history={hashHistory}>
+                <Router history={browserHistory}>
                     <Route path='/' component={App}>
-                        <IndexRedirect to="home"/>
-                        <Route path="home" component={Home}/>
-                        <Route path="mes" component={Mes}/>
-                        <Route path="order" component={Order}/>
-                        <Route path="mine" component={Mine}/>
-                        <Redirect from="*" to="home"/>
+                        {/* <IndexRedirect to="/index"/> */}
+                        <Route path="/index" component={Home}/>
+                        <Route path="/find" component={Find}/>
+                        <Route path="/order" component={Order}/>
+                        <Route path="/mine" component={Mine}/>
+                        {/* <Redirect from="*" to="/index"/> */}
                     </Route>
+                    <Route path='/login' component={Login}/>
+                    <Route path='/restaurant' component={Restaurant}/>
+                    <Route path='/goodlist' component={GoodList}/>
                 </Router>
             </Provider>
 
@@ -31,4 +40,3 @@ ReactDOM.render(route, document.getElementById('root'));
 registerServiceWorker();
 
 
-console.log(store.getState())
