@@ -26,7 +26,7 @@ class Header extends Component{
                         </Link>
                     </li>
                     <li>
-                        <Link className="ico-find" activeClassName="findClick" to="find">
+                        <Link className="ico-find" activeClassName="findClick" to="/find">
                             <span>发现</span>
                         </Link>
                     </li>
