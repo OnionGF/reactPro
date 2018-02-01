@@ -127,6 +127,12 @@ class Home extends Component {
             this.state.indexList = res.data.data.data.poilist
           )
       }
+
+ // axios.post('/dola/app/mainpage/newgetmainpagelist',
+    
+
+
+
     }).catch(err => {
     //   console.log(err)
     })

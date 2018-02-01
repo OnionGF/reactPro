@@ -4,11 +4,12 @@ import 'antd/dist/antd.css';
 import './stylesheets/index.scss';
 import App from './javascript/App';
 import registerServiceWorker from './registerServiceWorker'; //生产环境中的离线缓存
-import Home from './javascript/components/index'
+import Home from './javascript/components/Home'
 import Find from './javascript/components/Find'
 import Mine from './javascript/components/Mine'
 import Order from './javascript/components/Order'
 import Login from './javascript/components/Login'
+import Register from './javascript/components/Register'
 import Restaurant from './javascript/components/Restaurant'
 import GoodList from './javascript/components/GoodList'
 import Goods from './javascript/components/GoodList/Goods.js'
@@ -31,9 +32,11 @@ let route =<Provider store={store}>
                         <Route path="/find" component={Find}/>
                         <Route path="/order" component={Order}/>
                         <Route path="/mine" component={Mine}/>
+                        <Route path="/mine/register" component={Register} />
+                        <Route path="/mine/login" component={Login} />
                         {/* <Redirect from="*" to="/index"/> */}
                     </Route>
-                    <Route path='/login' component={Login}/>
+                    {/* <Route path='/login' component={Login}/> */}
                     <Route path='/restaurant' component={Restaurant}/>
                     <Route path='/goodlist' component={GoodList}>
                         <Route path="/goods"   component={Goods}/>

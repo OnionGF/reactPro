@@ -1,0 +1,42 @@
+.whole{
+    height: 290px;
+    width:100%;
+    background: #fff;
+    border-bottom: 10px solid #000;
+    .bigbox{
+        height:290px;
+        width:100%;
+        padding: 15px;
+        background: #fff;
+        img{
+            display:block ;
+            height: 160px;
+            width:100%;
+        }
+        .ddd{
+           margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            display: -webkit-box !important;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            color:#000;
+        }
+        .life{
+            color: #999;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .num{
+                margin-top: 10px;
+              
+                color: #999;
+                font-size: 14px;
+
+        }
+    }
+
+}
