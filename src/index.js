@@ -33,7 +33,7 @@ let route =<Provider store={store}>
                         <Route path="/mine/login" component={Login} />
                         {/* <Redirect from="*" to="/index"/> */}
                     </Route>
-                    <Route path='/login' component={Login}/>
+                    {/* <Route path='/login' component={Login}/> */}
                     <Route path='/restaurant' component={Restaurant}/>
                     <Route path='/goodlist' component={GoodList}/>
                 </Router>
