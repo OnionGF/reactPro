@@ -1,8 +1,10 @@
-.whole{
+.find{
+    .whole{
     height: 290px;
     width:100%;
     background: #fff;
-    border-bottom: 10px solid #000;
+    margin-bottom: 10px;
+    background-color: #b3d4fc;
     .bigbox{
         height:290px;
         width:100%;
@@ -40,3 +42,6 @@
     }
 
 }
+
+}
+
