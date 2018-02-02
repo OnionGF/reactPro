@@ -12,6 +12,9 @@ import Login from './javascript/components/Login'
 import Register from './javascript/components/Register'
 import Restaurant from './javascript/components/Restaurant'
 import GoodList from './javascript/components/GoodList'
+import Goods from './javascript/components/GoodList/Goods.js'
+import Retings from './javascript/components/GoodList/Retings.js'
+import Seller from './javascript/components/GoodList/Seller.js'
 
 import {Router,Route,IndexRedirect,hashHistory,Redirect,browserHistory} from 'react-router'
 
@@ -35,7 +38,11 @@ let route =<Provider store={store}>
                     </Route>
                     {/* <Route path='/login' component={Login}/> */}
                     <Route path='/restaurant' component={Restaurant}/>
-                    <Route path='/goodlist' component={GoodList}/>
+                    <Route path='/goodlist' component={GoodList}>
+                        <Route path="/goods"   component={Goods}/>
+                        <Route path="/retings" component={Retings}/>
+                        <Route path="/seller"  component={Seller}/>
+                    </Route>
                 </Router>
             </Provider>
 
